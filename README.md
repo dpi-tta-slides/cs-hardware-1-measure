@@ -1,6 +1,6 @@
 # CS Hardware - Ohm's Law
 
-Slides
+[Slides](https://dpi-tta-slides.github.io/cs-hardware-1-ohms-law/)
 
 ## Learning Objectives
 
