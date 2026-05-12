@@ -5,7 +5,7 @@ paginate: true
 ---
 
 # Day 1
-## Introduction to Electricity & Electronics
+## CS Hardware - Ohm's Law
 
 ---
 
