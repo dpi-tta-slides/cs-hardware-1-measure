@@ -173,3 +173,257 @@ bad idea to mess around with lead-acid batteries. Bear in mind that a car batter
 
 <!-- TODO: add switch/button? -->
 
+
+
+
+<!-- TODO: Move to Lab Notes -->
+<!-- TODO: setup tinkercad classroom? -->
+
+<!-- ---
+
+# Virtual Circuit
+
+Battery positive →
+Resistor →
+LED →
+Battery negative -->
+
+<!-- TODO: insert Tinkercad screenshot -->
+<!-- Breadboard? -->
+
+<!-- ---
+
+# Before Starting Simulation
+
+## Double check:
+
+- LED polarity
+- resistor present
+- correct wiring
+- battery orientation -->
+
+<!-- ---
+
+# Prediction
+
+Before starting the simulation:
+
+- What happens if the LED is reversed?
+- What happens if the resistor is removed?
+- Will the LED always light? -->
+
+<!-- ---
+
+# Start the Simulation
+
+## What do you observe?
+
+- Is the LED on?
+- Is it bright?
+- What happens if wiring changes? -->
+
+<!-- ---
+
+# Intentional Failure Test
+
+Try:
+- reversing the LED
+- removing the resistor
+
+Observe what changes. -->
+
+<!-- ---
+
+# Debrief
+
+- Why did reversing the LED matter?
+- Why was the resistor necessary?
+- Why did some circuits fail? -->
+
+
+# Measure the Battery
+
+## Prediction
+
+What voltage do you expect from a 9V battery?
+
+Now measure it.
+
+---
+
+# Measuring Resistance
+
+## Important Rule: **POWER OFF FIRST**
+
+Resistance is measured on unpowered circuits.
+
+---
+
+# Measure a Resistor
+
+- Use the multimeter to measure different resistors
+- Compare measured values to color bands.
+
+---
+
+# Measuring Continuity
+
+Continuity means:
+- electrical connection exists
+
+The multimeter beeps when connected.
+
+<!-- Test:
+- jumper wires
+- buttons
+- switches
+- breadboard rows -->
+
+---
+
+
+
+
+<!--
+
+- Why is a resistor needed?
+- What happens if resistance increases?
+- What does voltage measure?
+- Why do LEDs have polarity?
+
+-->
+
+<!-- TODO: add slide on buttons / switches -->
+
+<!-- ---
+
+# Reach Goals
+
+- change the order of components
+- change resistance / potentiometer
+- add a button and/or switch -->
+
+<!-- 
+---
+
+# Next Time
+
+Next steps:
+- capacitors
+- series vs parallel
+- sensors
+- transistors 
+-->
+
+
+<!-- 
+
+TODO: do we need this slide?
+
+---
+
+# Electronics Is About Control
+
+We use electronics to control:
+
+- Light 💡
+- Motion 🚗
+- Sound 🔊
+- Information ℹ️
+- Energy ⚡️ 
+
+-->
+
+
+<!-- TODO: move to lab?
+
+- What happens as resistance increases?
+- Will brightness increase or decrease?
+- Will the change feel linear?
+- What happens when you add a button and/or switch 
+
+-->
+
+<!-- # LED Dimmer Circuit
+
+Battery positive →
+Fixed resistor →
+Potentiometer →
+LED →
+Battery negative
+
+---
+
+# Experiment Time
+
+Slowly rotate the potentiometer.
+
+Observe:
+- brightness
+- smoothness of control
+
+--- 
+
+# Why Does Brightness Change?
+
+- Brightness depends on *current*
+- Current depends on *resistance*
+
+---
+-->
+
+<!-- 
+---
+
+# Common Mistakes
+
+- reversed LED
+- missing resistor
+- loose wires
+- wrong breadboard row
+- dead battery
+-->
+
+
+<!--
+# Build It Physically
+
+## Now recreate the same circuit
+
+Using:
+- Breadboard
+- LED
+- Resistor
+- Battery
+- Jumper wires -->
+
+<!-- 
+
+TODO: introduce breadboards in tinkercad first
+---
+
+# Breadboard
+
+## Rapid circuit prototyping
+
+- no soldering
+- reusable
+- easy to modify
+
+---
+
+# Breadboard Layout
+
+## Rows are electrically connected
+
+TODO: Insert breadboard diagram 
+-->
+
+<!-- ---
+
+# Physical Circuit
+
+Battery positive →
+Resistor →
+LED →
+Battery negative -->

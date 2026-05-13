@@ -15,9 +15,9 @@ paginate: true
 By the end of today you will:
 
 - Build your first circuit
+- Learn about Ohm's Law
 - Control LED (light emitting diode) brightness using a resistor
 - Use a multimeter to measure voltage, current, resistance, and continuity
-- Learn Ohm's Law
 - Learn how to troubleshoot circuits
 
 ![bg contain right](assets/led-circuit-breadboard.jpg)
@@ -38,90 +38,100 @@ Build the same circuit physically on a breadboard
 
 Measure and analyze the circuit
 
-<!-- TODO: step 4 -->
+## Step 4
 
-
-
----
-
-# Live Demo
-
-## What are we building today?
-
-<!-- LIVE DEMO -->
-<!-- Show physical LED dimmer circuit -->
-
-<!-- Questions:
-- Why does the LED change brightness?
-- What controls the current?
-- Why doesn't the LED burn out? -->
-
-![bg contain right](assets/resistor-led-circuit.png)
-
-<!-- TODO: move to a breadboard? -->
+Extend the circuit using potentiometer, switch, and/or button
 
 ---
 
-<!-- TODO: introduce Ohm's Law here? -->
+# Demo: LED (Light Emitting Diode) Circuit in Tinkercad
+
+![bg contain right](assets/tinkercad-resistor-led-circuit.png)
+
+<!-- 
+
+INSTUCTOR NOTES:
+
+Build out the circuit in Tinkercad. Start with point to point wiring. Show what happens without a resistor, then move to breadboard
+
+Important Observation
+
+- Changing resistance changes current
+- Changing current changes brightness
+
+Questions:
+- What's the relationship between resistance, current and brightness?
+- Why does the LED burn out?
+
+-->
 
 ---
 
 # What Happens Without a Resistor?
 
+- Resistors convert electrical energy into heat.
 - We use a resistor to safely limit current.
 - This protects the LED from too much current.
 
 An LED connected directly to a battery can:
+
 - draw too much current
 - overheat
 - burn out
 
-<!-- TODO: Ohm's Law here? -->
-
-<!-- ---
-
-# Debugging Is Engineering
-
-There are:
-- some ways to wire it correctly
-- many ways to wire it incorrectly
-
-Debugging is part of electronics. -->
-
 ---
+
+# Ohm's Law
+
+## V = I × R
+
+Voltage (V) = Current (I) * Resistance (R)
 
 <!-- 
-# Why Start with Tinkercad?
 
-Advantages:
+INSTUCTOR NOTES:
 
-- easier wiring + troubleshooting
-- instant feedback
-- safer experimentation
-- no damaged components
+This is one of the most important equations in electronics
 
-Disadvantages:
+More voltage -> more current
+More resistance -> less current 
 
-- Simulations are sometimes inaccurate 
 -->
 
-<!-- We can focus on *understanding the circuit first* -->
+---
+
+<!-- TODO: explain a short circuit (too much current, too little resistance) and open circuit (too little current, too much resistance) -->
+
+<!--
+
+# Battery Safety
+
+Large batteries can produce a dangerous levels of current.
+
+Do NOT short large batteries:
+
+- lithium batteries
+- car batteries 
+
+-->
+
+<!-- TODO: video showing what happens -->
 
 ---
 
-# Electronics Is About Control
+# LAB BREAKOUT #1
 
-We use electronics to control:
+## Tinkercad Build
 
-- Light 💡
-- Motion 🚗
-- Sound 🔊
-- Information ℹ️
-- Energy ⚡️
+Goal: *make this circuit in Tinkercad to make the LED light safely*
 
----
+![bg contain right](assets/tinkercad-resistor-led-circuit.png)
 
-# Expect mistakes
+<!-- 
+
+INSTUCTOR NOTES:
+
+Expect mistakes
 
 Your circuit may:
 
@@ -133,85 +143,7 @@ Professional engineers spend huge amounts of time debugging.
 
 If your circuit does not work immediately **THAT IS NORMAL**
 
----
-
-# LAB BREAKOUT #1
-
-## Tinkercad Build
-
-Components:
-
-- battery
-- resistor
-- LED
-- wires
-
-Goal: *make the LED light safely*
-
-![bg contain right](assets/resistor-led-circuit.png)
-
-<!-- TODO: setup tinkercad classroom -->
-
-<!-- ---
-
-# Virtual Circuit
-
-Battery positive →
-Resistor →
-LED →
-Battery negative -->
-
-<!-- TODO: insert Tinkercad screenshot -->
-<!-- Breadboard? -->
-
-<!-- ---
-
-# Before Starting Simulation
-
-## Double check:
-
-- LED polarity
-- resistor present
-- correct wiring
-- battery orientation -->
-
-<!-- ---
-
-# Prediction
-
-Before starting the simulation:
-
-- What happens if the LED is reversed?
-- What happens if the resistor is removed?
-- Will the LED always light? -->
-
-<!-- ---
-
-# Start the Simulation
-
-## What do you observe?
-
-- Is the LED on?
-- Is it bright?
-- What happens if wiring changes? -->
-
-<!-- ---
-
-# Intentional Failure Test
-
-Try:
-- reversing the LED
-- removing the resistor
-
-Observe what changes. -->
-
-<!-- ---
-
-# Debrief
-
-- Why did reversing the LED matter?
-- Why was the resistor necessary?
-- Why did some circuits fail? -->
+-->
 
 ---
 
@@ -225,50 +157,38 @@ Three important ideas:
 - Current (I)
 - Resistance (R)
 
-<!-- ![bg contain right](assets/water-analogy.png) -->
+![bg contain right](assets/electric-energy-physics-definition-vector-illustration-educational-poster-closed-electrical.webp)
 
 ---
 
 # Voltage
 
-## Voltage is electrical pressure
+- Voltage is electrical pressure
+- Voltage pushes electrons through a circuit.
+- Measured in Volts (V)
 
-Voltage pushes electrons through a circuit.
-
-Analogy:
-- water pressure in a pipe
-
-Measured in:
-# Volts (V)
+<!-- - Analogy: water pressure in a pipe -->
+<!-- TODO: image -->
 
 ---
 
 # Current
 
-## Current is flow
+- Current is flow
+- Current is the movement of electrical charge.
+- Measured in Amps (A)
 
-Current is the movement of electrical charge.
-
-Analogy:
-- water flowing through a pipe
-
-Measured in:
-# Amps (A)
+<!-- - Analogy: water flowing through a pipe -->
+<!-- TODO: image -->
 
 ---
 
 # Resistance
 
-## Resistance opposes current flow
-
-Higher resistance:
-- less current
-
-Lower resistance:
-- more current
-
-Measured in:
-# Ohms (Ω)
+- Resistance opposes current flow
+- Higher resistance, less current
+- Lower resistance, more current
+- Measured in Ohms (Ω)
 
 ![bg contain right](assets/hose-analogy.png)
 
@@ -277,7 +197,7 @@ Measured in:
 # Water Analogy
 
 | Electricity | Water |
-|---|---|
+| ----------- | ----- |
 | Voltage | Pressure |
 | Current | Flow |
 | Resistance | Narrow pipe |
@@ -286,34 +206,21 @@ Measured in:
 
 ---
 
-# The Battery
-
-A battery provides voltage.
-
-Battery terminals:
-
-- Positive (+)
-- Negative (-)
-
-![bg contain right](assets/battery-multimeter.png)
-
----
-
 # Polarity
 
-**Direction matters**
-
+- *Direction matters*
 - Electricity flows through a circuit in a direction
 - Some components only work when electricity flows the correct way
 
 This is called *polarity*
 
+<!-- TODO: image showing current flow -->
+
 ---
 
 # LEDs Have Polarity
 
-LED:
-- Light Emitting Diode
+LED (Light Emitting Diode)
 
 Diodes only allow current in one direction.
 
@@ -324,45 +231,29 @@ Diodes only allow current in one direction.
 
 ---
 
+# Demo: Physical Breadboard
 
-
-# Battery Safety
-
-Large batteries can produce a dangerous levels of current.
-
-Do NOT short:
-- lithium batteries
-- car batteries
-
-<!-- TODO: video showing what happens -->
-
+<!-- TODO: image -->
 ---
 
 # Safety
 
 - Disconnect power before rewiring
-<!-- TODO: explain a short circuit (too much current) -->
 - Avoid short circuits
 - Wear safety glasses
-- Check polarity
 
-
-
-<!-- ---
-
-# Engineering Mindset
-
-Good engineers:
-- test
-- predict
-- measure
-- debug
-- iterate 
-
--->
-
+<!-- TODO: image -->
 ---
 
+# LAB BREAKOUT #2
+
+## Physical Breadboard Build
+
+Goal: *Recreate the same circuit physically*
+
+<!-- TODO: image -->
+
+---
 
 # Troubleshooting
 
@@ -376,74 +267,17 @@ If it does NOT work:
 
 (sometimes you just need to take a break)
 
+<!-- TODO: image -->
 
 ---
 
-# LAB BREAKOUT #2
-
-## Physical Breadboard Build
-
-Recreate the same circuit physically.
-
-Goal:
-- LED lights
-- correct polarity
-- clean wiring
-
-
-<!-- ---
-
-# Build It Physically
-
-## Now recreate the same circuit
-
-Using:
-- Breadboard
-- LED
-- Resistor
-- Battery
-- Jumper wires -->
-
-<!-- 
-
-TODO: introduce breadboards in tinkercad first
----
-
-# Breadboard
-
-## Rapid circuit prototyping
-
-- no soldering
-- reusable
-- easy to modify
-
----
-
-# Breadboard Layout
-
-## Rows are electrically connected
-
-TODO: Insert breadboard diagram 
--->
-
-<!-- ---
-
-# Physical Circuit
-
-Battery positive →
-Resistor →
-LED →
-Battery negative -->
-
----
-
-
-
-# Compare Virtual vs Physical
+# Compare Tinkercad vs Physical
 
 What are your first impressions?
 
 <!--
+
+INSTRUCTOR NOTES:
 
 Tinkercad:
 - easier wiring
@@ -463,197 +297,55 @@ Real hardware:
 ## Most important electronics tool
 
 A multimeter measures:
+
 - voltage
 - resistance
 - current
 - continuity
+- and more!
+
+<!-- TODO: image? tinkercad and physical multimeter -->
 
 ---
 
-# Instructor Demo
-
-<!-- LIVE DEMO -->
-
-Measure:
-- battery voltage
-- LED voltage
-- current
-- resistance
-- continuity
+# Demo: Multimeter
 
 <!-- 
-Show probes placed in parallel vs. series 
--->
 
-<!-- TODO: Insert diagram measuring voltage, current, resistance, continuity -->
+INSTUCTOR NOTES:
 
----
-
----
-
-# Measure the Battery
-
-## Prediction
-
-What voltage do you expect from a 9V battery?
-
-Now measure it.
-
----
-
-# Measuring Resistance
-
-## Important Rule: **POWER OFF FIRST**
-
-Resistance is measured on unpowered circuits.
-
----
-
-# Measure a Resistor
-
-- Use the multimeter to measure different resistors
-- Compare measured values to color bands.
-
----
-
-# Measuring Continuity
-
-Continuity means:
-- electrical connection exists
-
-The multimeter beeps when connected.
-
-<!-- Test:
-- jumper wires
-- buttons
-- switches
-- breadboard rows -->
-
----
-
-# LAB BREAKOUT #3
-
-## Multimeter Measurements
+Use Tinkercad and the live breadboard to make measurements using the multimeter
 
 Measure:
 - battery voltage
-- current
-- resistor value
-- continuity
+- LED voltage (parallel - on)
+- resistance (off)
+- current (series - on)
+- continuity (off)
 
-Time:
-10–15 minutes
+Show probes placed in parallel vs. series
+-->
 
----
-
-# Ohm’s Law
-
-# V = I × R
-
-This is one of the most important equations in electronics.
+<!-- TODO: Insert tinkercade image diagram measuring voltage, current, resistance, continuity -->
 
 ---
 
-# Ohm's Law Intuition
+# The Battery
 
-More voltage -> more current
+A battery provides voltage.
 
-More resistance -> less current
+Battery terminals:
 
----
+- Positive (+)
+- Negative (-)
 
-# LED Brightness Control
-
-## New goal
-
-Control LED brightness using:
-- resistor
-- potentiometer
-- button and/or switch
+![bg contain right](assets/battery-multimeter.png)
 
 ---
 
-# Potentiometer (Variable resistor)
+<!-- Measuring forward voltage  -->
 
-Turning the knob changes resistance.
-
-Use:
-- Center pin
-- One outside pin
-- Leave the other outside pin disconnected.
-
-![bg contain right](assets/potentiometer.png)
-
----
-
-# Buttons
-
-A button only changes the circuit while pressed.
-
-Examples:
-- keyboard keys
-- doorbells
-- game controller buttons
-
-<!-- TODO: image -->
----
-
-# Switches
-
-A switch stays in its position until changed.
-
-Examples:
-- room light switch
-- power strip
-- flashlight switch
-
-<!-- TODO: image -->
----
-
-# LAB BREAKOUT #4
-
-## LED Dimmer
-
-Add the potentiometer.
-
-Goal: *control LED brightness*
-
-- What happens as resistance increases?
-- Will brightness increase or decrease?
-- Will the change feel linear?
-- What happens when you add a button and/or switch
-
-Time:
-15–20 minutes
-
----
-
-<!-- # LED Dimmer Circuit
-
-Battery positive →
-Fixed resistor →
-Potentiometer →
-LED →
-Battery negative
-
----
-
-# Experiment Time
-
-Slowly rotate the potentiometer.
-
-Observe:
-- brightness
-- smoothness of control
-
---- -->
-
-# Why Does Brightness Change?
-
-- Brightness depends on *current*
-- Current depends on *resistance*
-
----
+<!-- 
 
 # Forward Voltage
 
@@ -668,9 +360,10 @@ In a 9V circuit:
 
 ---
 
-# Example Calculation
+# Calculation
 
 Assume:
+
 - Battery = 9V
 - LED forward voltage = 2.2V
 - Resistance = 500 Ω
@@ -678,10 +371,6 @@ Assume:
 Remaining voltage:
 
 # 9V − 2.2V = 6.8V
-
----
-
-# Current Calculation
 
 Using Ohm's Law:
 
@@ -691,75 +380,104 @@ I = 6.8V / 500Ω
 I = 0.0136 A = 13.6 mA
 ```
 
----
-
-# Important Observation
-
-- Changing resistance changes current
-- Changing current changes brightness
-
----
-
-# Heat and Energy
-
-- Resistors convert electrical energy into heat.
-- LEDs convert energy into light & heat
-
-<!-- 
----
-
-# Common Mistakes
-
-- reversed LED
-- missing resistor
-- loose wires
-- wrong breadboard row
-- dead battery
 -->
 
 ---
 
+<!-- Resistor -->
+
+---
+
+<!-- Measuring current -->
+
+---
+
+# LAB BREAKOUT #3
+
+## Multimeter Measurements
+
+Measure:
+
+- Battery voltage
+- Forward voltage
+- Current
+- Resistance
+- Continuity
+
+---
+
+# Demo: LED Brightness Control
+
+Adjust LED brightness using:
+
+- Resistor
+- Potentiometer
+- Button and/or switch
+
+<!-- TODO: image of circuit -->
+
+---
+
+# Potentiometer (Variable resistor)
+
+Turning the knob changes resistance.
+
+Use:
+
+- Center pin
+- One outside pin
+- Leave the other outside pin disconnected.
+
+![bg contain right](assets/potentiometer.png)
+
+---
+
+# Buttons
+
+A button only changes the circuit while pressed.
+
+Examples:
+
+- Keyboard keys
+- Doorbells
+- Game controller buttons
+
+<!-- TODO: image -->
+---
+
+# Switches
+
+A switch stays in its position until changed.
+
+Examples:
+
+- Room light switch
+- Power strip
+- Flashlight switch
+
+<!-- TODO: image -->
+---
+
+# LAB BREAKOUT #4
+
+## LED Dimmer Switch
+
+Goal: *Add the potentiometer, button, and/or switch to control LED brightness*
+
+<!-- TODO: image -->
+
+---
 
 # Key Takeaways
 
-<!-- 
-# Key Ideas from Today
+<!--
+
+INSTRUCTOR NOTES:
 
 - Voltage pushes current
 - Resistance limits current
 - Current controls LED brightness
 - Polarity matters
-- Multimeters let us observe circuits 
--->
+- Multimeters let us observe circuits
 
-
-<!--
-
-- Why is a resistor needed?
-- What happens if resistance increases?
-- What does voltage measure?
-- Why do LEDs have polarity?
-
--->
-
-<!-- TODO: add slide on buttons / switches -->
-
-<!-- ---
-
-# Reach Goals
-
-- change the order of components
-- change resistance / potentiometer
-- add a button and/or switch -->
-
-<!-- 
----
-
-# Next Time
-
-Next steps:
-- capacitors
-- series vs parallel
-- sensors
-- transistors 
 -->
