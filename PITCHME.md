@@ -252,7 +252,7 @@ Diodes only allow current in one direction.
 
 Goal: *Recreate the same circuit physically*
 
-<!-- TODO: image -->
+![bg contain right](assets/led-circuit-breadboard.jpg)
 
 ---
 
@@ -348,6 +348,8 @@ Battery terminals:
 
 <!-- 
 
+- in parallel
+
 # Forward Voltage
 
 - LEDs are not ordinary resistors.
@@ -387,9 +389,25 @@ I = 0.0136 A = 13.6 mA
 
 <!-- Resistor -->
 
+<!-- 
+
+- mention color bands indicate resistance
+- easy to use multimeter
+
+-->
+
 ---
 
 <!-- Measuring current -->
+
+<!-- 
+
+- in series
+
+-->
+---
+
+<!-- continuity -->
 
 ---
 
