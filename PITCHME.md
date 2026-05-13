@@ -26,27 +26,16 @@ By the end of today you will:
 
 # Today's Workflow
 
-## Step 1
-
-Build a circuit virtually in Tinkercad
-
-## Step 2
-
-Build the same circuit physically on a breadboard
-
-## Step 3
-
-Measure and analyze the circuit
-
-## Step 4
-
-Extend the circuit using potentiometer, switch, and/or button
+1. Build a circuit virtually in Tinkercad
+2. Build the same circuit physically on a breadboard
+3. Measure and analyze the circuit
+4. Extend the circuit using potentiometer, switch, and/or button
 
 ---
 
 # Demo: LED (Light Emitting Diode) Circuit in Tinkercad
 
-![bg contain right](assets/tinkercad-resistor-led-circuit.png)
+![w:600](assets/tinkercad-resistor-led-circuit.png)
 
 <!-- 
 
@@ -100,22 +89,14 @@ More resistance -> less current
 
 ---
 
-<!-- TODO: explain a short circuit (too much current, too little resistance) and open circuit (too little current, too much resistance) -->
+# Short Circuit
 
-<!--
+- A short circuit happens when too much current flows due to too little resistance
+- An open circuit is the opposite (too much resitance)
+- Large batteries can produce a dangerous levels of current and possibly risk starting a fire
+- Do NOT short large batteries
 
-# Battery Safety
-
-Large batteries can produce a dangerous levels of current.
-
-Do NOT short large batteries:
-
-- lithium batteries
-- car batteries 
-
--->
-
-<!-- TODO: video showing what happens -->
+[Video: ElectroBOOM](https://www.youtube.com/watch?v=i04y5n2oTsw)
 
 ---
 
@@ -163,12 +144,11 @@ Three important ideas:
 
 # Voltage
 
-- Voltage is electrical pressure
-- Voltage pushes electrons through a circuit.
+- Voltage is electrical potential difference
+- Voltage pushes electrons through a circuit
 - Measured in Volts (V)
 
-<!-- - Analogy: water pressure in a pipe -->
-<!-- TODO: image -->
+![bg contain right](assets/potential-energy.webp)
 
 ---
 
@@ -178,8 +158,7 @@ Three important ideas:
 - Current is the movement of electrical charge.
 - Measured in Amps (A)
 
-<!-- - Analogy: water flowing through a pipe -->
-<!-- TODO: image -->
+![bg contain right](assets/electric-current-vector-diagram.webp)
 
 ---
 
@@ -214,7 +193,7 @@ Three important ideas:
 
 This is called *polarity*
 
-<!-- TODO: image showing current flow -->
+![bg contain right](assets/electric-energy-physics-definition-vector-illustration-educational-poster-closed-electrical.webp)
 
 ---
 
@@ -233,7 +212,7 @@ Diodes only allow current in one direction.
 
 # Demo: Physical Breadboard
 
-![bg contain right](assets/led-circuit-breadboard.jpg)
+![w:600](assets/led-circuit-breadboard.jpg)
 
 ---
 
@@ -242,8 +221,10 @@ Diodes only allow current in one direction.
 - Disconnect power before rewiring
 - Avoid short circuits
 - Wear safety glasses
+- 1 hand trick 👋
 
-<!-- TODO: image -->
+![bg contain right](assets/safety-glasses.jpg)
+
 ---
 
 # LAB BREAKOUT #2
@@ -267,8 +248,6 @@ If it does NOT work:
 - test battery
 
 (sometimes you just need to take a break)
-
-<!-- TODO: image -->
 
 ---
 
@@ -306,10 +285,16 @@ A multimeter measures:
 - and more!
 
 <!-- TODO: image? tinkercad and physical multimeter -->
+![bg contain right](assets/multimeter-tinkercad.png)
+![bg contain right](assets/multimeter.webp)
+
 
 ---
 
 # Demo: Multimeter
+
+![bg contain right](assets/multimeter-tinkercad.png)
+![bg contain right](assets/multimeter.webp)
 
 <!-- 
 
@@ -325,13 +310,12 @@ Measure:
 - continuity (off)
 
 Show probes placed in parallel vs. series
--->
 
-<!-- TODO: Insert tinkercade image diagram measuring voltage, current, resistance, continuity -->
+-->
 
 ---
 
-# The Battery
+# Battery
 
 A battery provides voltage.
 
@@ -344,26 +328,18 @@ Battery terminals:
 
 ---
 
-<!-- Measuring forward voltage  -->
-
-<!-- 
-
-- in parallel
-
 # Forward Voltage
 
-- LEDs are not ordinary resistors.
 - A green LED typically uses about 2.2 V
 - This is called *forward voltage*
-
-In a 9V circuit:
-
-- Some voltage appears across the LED
+- In a 9V circuit some voltage appears across the LED
 - The rest appears across the resistor(s)
+
+![bg contain right](assets/led-forward-voltage.png)
 
 ---
 
-# Calculation
+# Calculating Forward Voltage
 
 Assume:
 
@@ -371,9 +347,7 @@ Assume:
 - LED forward voltage = 2.2V
 - Resistance = 500 Ω
 
-Remaining voltage:
-
-# 9V − 2.2V = 6.8V
+Remaining voltage: `9V − 2.2V = 6.8V`
 
 Using Ohm's Law:
 
@@ -383,31 +357,31 @@ I = 6.8V / 500Ω
 I = 0.0136 A = 13.6 mA
 ```
 
--->
+---
+
+# Resistor
+
+- Color bands indicate resistance
+- Use multimeter to measure resistance
+
+![bg contain right](assets/6-Band-Resistor-120-Ohms.webp)
+![bg contain right](assets/multimeter-resistor.png)
 
 ---
 
-<!-- Resistor -->
+# Current
 
-<!-- 
+- In a series circuit, the current is the same everywhere because there’s only one path for charge to flow.
 
-- mention color bands indicate resistance
-- easy to use multimeter
-
--->
+![bg contain right](assets/led-forward-voltage.png)
 
 ---
 
-<!-- Measuring current -->
+# Continuity
 
-<!-- 
+- Verifies that an electrical path is complete and unbroken by sending a small current through the circuit
 
-- in series
-
--->
----
-
-<!-- continuity -->
+![bg contain right](assets/continuity.webp)
 
 ---
 
@@ -433,18 +407,14 @@ Adjust LED brightness using:
 - Potentiometer
 - Button and/or switch
 
-<!-- TODO: image of circuit -->
+![bg contain right](assets/led-brightness-control.gif)
 
 ---
 
 # Potentiometer (Variable resistor)
 
-Turning the knob changes resistance.
-
-Use:
-
-- Center pin
-- One outside pin
+- Turning the knob increases (or decreases) resistance.
+- Use center pin and one outside pin
 - Leave the other outside pin disconnected.
 
 ![bg contain right](assets/potentiometer.png)
@@ -461,7 +431,8 @@ Examples:
 - Doorbells
 - Game controller buttons
 
-<!-- TODO: image -->
+![bg contain right](assets/pushbutton.png)
+
 ---
 
 # Switches
@@ -474,7 +445,8 @@ Examples:
 - Power strip
 - Flashlight switch
 
-<!-- TODO: image -->
+![bg contain right](assets/switch.png)
+
 ---
 
 # LAB BREAKOUT #4
@@ -483,7 +455,7 @@ Examples:
 
 Goal: *Add the potentiometer, button, and/or switch to control LED brightness*
 
-<!-- TODO: image -->
+![bg contain right](assets/led-brightness-control.gif)
 
 ---
 
