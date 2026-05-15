@@ -96,7 +96,7 @@ More resistance -> less current
 
 ---
 
-# LAB BREAKOUT #1
+# Lab Breakout #1
 
 ## Tinkercad Build
 
@@ -179,6 +179,8 @@ Three important ideas:
 
 ![bg contain right](assets/water-analogy.png)
 
+[Video](https://www.youtube.com/shorts/LSiia6PzoOA)
+
 ---
 
 # Polarity
@@ -223,7 +225,7 @@ Diodes only allow current in one direction.
 
 ---
 
-# LAB BREAKOUT #2
+# Lab Breakout #2
 
 ## Physical Breadboard Build
 
@@ -378,9 +380,11 @@ I = 0.0136 A = 13.6 mA
 
 ![bg contain right](assets/continuity.webp)
 
+[Mythbuster Explains Continuity](https://youtu.be/K9fQn1bQVsQ?si=I5ulRhLROu3o2CSd&t=293)
+
 ---
 
-# LAB BREAKOUT #3
+# Lab Breakout #3
 
 ## Multimeter Measurements
 
@@ -444,7 +448,7 @@ Examples:
 
 ---
 
-# LAB BREAKOUT #4
+# Lab Breakout #4
 
 ## LED Dimmer Switch
 
