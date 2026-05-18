@@ -214,7 +214,45 @@ Diodes only allow current in one direction.
 
 ---
 
-# Safety
+# Will I be electrocuted?
+
+- 0.1 amps (100mA) is lethal
+
+<!--
+
+- 0.007 amps (7mA) across the heart for three seconds can be fatal 
+- 10–20mA can cause involuntary muscle contractions, preventing someone from letting go. 
+
+-->
+
+Body Resistance:
+
+- Dry skin (high resistance > 100,000 ohms)
+- Wet skin (low resistance ~1,000 ohms)
+
+<!-- If submerged in water, resistance is even lower -->
+
+<!-- AC vs. DC: 
+
+Alternating Current (AC) at 50–60 Hz is generally more dangerous than Direct Current (DC) because it causes sustained muscle contractions and more readily induces ventricular fibrillation.
+
+Approximately 60–100mA of AC is needed to cause fibrillation, compared to 300–500mA of DC.
+
+Household Voltage: 110–120V and 220–240V
+
+using 2 hands completes a circuit, so if in doubt use 1 hand
+
+-->
+
+```
+V = I * R
+V = 0.1 Amps * 1,000 Ohms
+V = 100 Volts
+```
+
+---
+
+# Safety Precautions
 
 - Disconnect power before rewiring
 - Avoid short circuits
