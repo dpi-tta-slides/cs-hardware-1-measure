@@ -4,9 +4,9 @@ theme: default
 paginate: true
 ---
 
-# Day 1
+# CS Hardware - Day 1
 
-## CS Hardware - Ohm's Law
+## Measure
 
 ---
 

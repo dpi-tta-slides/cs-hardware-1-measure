@@ -1,4 +1,4 @@
-# CS Hardware - Ohm's Law
+# CS Hardware Day 1 - Measure
 
 [Slides](https://dpi-tta-slides.github.io/cs-hardware-1-ohms-law/)
 
