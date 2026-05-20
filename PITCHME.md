@@ -240,6 +240,8 @@ Approximately 60–100mA of AC is needed to cause fibrillation, compared to 300�
 
 Household Voltage: 110–120V and 220–240V
 
+OSHA establishes 50 volts as the minimum threshold for electrical safety requirements, considering all voltages at or above this level hazardous because electric current, not voltage alone, causes injury.
+
 using 2 hands completes a circuit, so if in doubt use 1 hand
 
 -->
