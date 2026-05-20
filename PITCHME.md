@@ -511,3 +511,11 @@ INSTRUCTOR NOTES:
 - Multimeters let us observe circuits
 
 -->
+
+<!--
+
+TODO:
+
+mention metric prefixes https://en.wikipedia.org/wiki/Metric_prefix
+
+-->
