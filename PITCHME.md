@@ -8,6 +8,8 @@ paginate: true
 
 ## Measure
 
+![bg contain right](assets/measure.gif)
+
 ---
 
 # Goal for Today
